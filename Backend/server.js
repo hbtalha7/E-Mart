@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/SalehShop', {
 //     if (product){
 //         res.send(product)
 //     }
-//     else {
+//     else { 
 //         res.status(404).send({message : 'Product not found'})
 //     }
     

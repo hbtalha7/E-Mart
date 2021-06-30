@@ -1,0 +1,34 @@
+{
+  "name": "martnow",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000-\u0000M\u0000a\u0000r\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "json": "^11.0.0",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "token": "^0.1.0",
+    "web": "0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --watch Backend --exec node --experimental-modules Backend/server.js"
+  },
+  "author": "Talha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbtalha7/E-Mart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hbtalha7/E-Mart/issues"
+  },
+  "homepage": "https://github.com/hbtalha7/E-Mart#readme"
+}
